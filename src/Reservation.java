@@ -1,9 +1,9 @@
 public class Reservation {
 
-    int numberOfGuests;
-    int timeOfReservation;
-    int timeResWasMade;
-    String name;
+    public int numberOfGuests;
+    public int timeOfReservation;
+    public int timeResWasMade;
+    public String name;
 
     //constructor
     public Reservation(int PnumberOfGuests, int PtimeOfReservation, int PtimeResWasMade, String Pname){
@@ -11,6 +11,10 @@ public class Reservation {
         timeOfReservation = PtimeOfReservation;
         timeResWasMade=PtimeResWasMade;
         name = Pname;
+    }
+
+    public String getName(){
+        return name;
     }
 
 
